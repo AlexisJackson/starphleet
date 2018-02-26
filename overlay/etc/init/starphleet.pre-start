@@ -8,3 +8,4 @@ move-syslog-to-biglogs
 (sudo lxc-ls | grep starphleet-base) || sudo starphleet-build-base-container
 set-starphleet-hq-from-userdata
 set-starphleet-env-from-user-data
+perform-overlay
