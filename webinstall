@@ -12,8 +12,10 @@
 ##
 ##############################################################################
 ## Locations to this repo
-STARPHLEET_REPO=${STARPHLEET_REPO:-"https://github.com/wballard/starphleet.git"}
-STARPHLEET_BRANCH=${STARPHLEET_BRANCH:-master}
+# STARPHLEET_REPO=${STARPHLEET_REPO:-"https://github.com/wballard/starphleet.git"}
+# STARPHLEET_BRANCH=${STARPHLEET_BRANCH:-master}
+STARPHLEET_REPO=${STARPHLEET_REPO:-"https://github.com/AlexisJackson/starphleet.git"}
+STARPHLEET_BRANCH=${STARPHLEET_BRANCH:-move_overlay}
 
 ##############################################################################
 ## Main Foo
