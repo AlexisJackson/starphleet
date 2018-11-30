@@ -17,6 +17,7 @@ set-starphleet-env-from-user-data
 if is_container_storage_on_s3 \
   && [ -z "${BUILD_CONTAINERS}" ] \
   && [ -n "${SERVE_CONTAINERS}" ]; then
+    echo "got here"
   exit 0
 fi
 (sudo lxc-ls | grep starphleet-base) || sudo starphleet-build-base-container
